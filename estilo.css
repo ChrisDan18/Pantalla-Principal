@@ -1,0 +1,325 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+
+}
+
+html, body {
+	font-family: sans-serif;
+	font-size: 16px;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+}
+
+
+/* Para pantallas grandes */
+@media only screen and (min-width: 768px) {
+
+	/*Parte del menu*/
+
+	.header{
+		width: 100%;
+		height: 65px;
+		background-color:  rgba(0, 154, 201, 0.459);
+		position: relative;
+		
+
+	}
+
+	.container{
+		max-width: 1100px;
+		margin: auto;
+		
+	}
+
+	.logo{
+		text-align: left;
+		line-height: 5px;
+	}
+
+	.menu{
+		position: relative;
+		margin-left: 800px;
+		line-height: 65px;
+
+	}
+
+	.menu ul{
+		display: flex;
+		list-style: none;
+
+	}
+
+	.menu a{
+		display: block;
+		padding: 0px 20px;
+		text-decoration: none;
+		color: black;
+		
+	}
+
+	.menu a:hover{
+		background: #cc673b;
+		color: white;
+	}
+
+	.menu .submenu{
+		background: white;
+		box-shadow: 3px 10px 10px rgba(0,0,0,0.2);
+		display: none;
+	}
+
+	.menu .submenu li a{
+		line-height: 50px;
+
+
+	}
+
+	.menu ul li a:hover + ul, .menu .submenu:hover{
+		display: block;
+	}
+
+
+
+
+
+	/* index2 */
+
+
+	#contenido{
+		width: 100%;
+		height: 90%;
+		position: relative;
+		top: 10%;
+	}
+
+	#formlogin{
+		width: 9%;
+		min-width: 250px;
+		height: 60%;
+		border: 2px solid black;
+		position: relative;
+		top: 10%;
+		left: 35%;
+		border-radius: 30px;
+		background-color: rgba(0, 195, 255, 0.274);
+		box-shadow: 0px 2px 5px rgb(30, 97, 114);
+	}
+
+	.boton{
+		width: 100px;
+		background-color: skyblue;
+		height: 50px;
+		left: 50%;
+		bottom: 280px;
+		position: relative;
+		padding: 15px;
+		font-size: 15px;
+		border-radius: 10px;
+
+	}
+
+	.boton2{
+		width: 100px;
+		background-color: skyblue;
+		height: 50px;
+		left: 35%;
+		position: relative;
+		bottom: 280px;
+		padding: 15px;
+		font-size: 15px;
+		border-radius: 10px;
+
+	}
+
+	#buscador{
+		margin-top: -85px;
+		position: relative;
+		bottom: 300px;
+		left: 40%;
+		
+	}
+
+
+	form input {
+		
+		background: transparent;
+		font-weight: bold;
+		background-image: url(https://image.flaticon.com/icons/png/512/116/116836.png);
+		background-size: 16px;
+		background-position: 5px;
+		background-repeat: no-repeat;
+		position: relative;
+		width: 290px;
+		display: flex;
+		padding: 9px 22px 9px 26px;
+		border: 2px solid rgb(49, 49, 43);
+		
+
+	}
+
+	img{
+		bottom: 540px;
+		position: relative;
+		left: 44%;
+		width: 170px;
+	}
+
+}
+
+
+/* para celular */
+@media only screen and (min-width: 768px) {
+/*Parte del menu*/
+
+.header{
+	width: 100%;
+	height: 65px;
+	background-color:  rgba(0, 154, 201, 0.459);
+	position: relative;
+	
+
+}
+
+.container{
+	max-width: 1100px;
+	margin: auto;
+	
+}
+
+.logo{
+	text-align: left;
+	line-height: 5px;
+}
+
+.menu{
+	position: relative;
+	margin-left: 800px;
+	line-height: 65px;
+
+}
+
+.menu ul{
+	display: flex;
+	list-style: none;
+
+}
+
+.menu a{
+	display: block;
+	padding: 0px 20px;
+	text-decoration: none;
+	color: black;
+	
+}
+
+.menu a:hover{
+	background: #cc673b;
+	color: white;
+}
+
+.menu .submenu{
+	background: white;
+	box-shadow: 3px 10px 10px rgba(0,0,0,0.2);
+	display: none;
+}
+
+.menu .submenu li a{
+	line-height: 50px;
+
+
+}
+
+.menu ul li a:hover + ul, .menu .submenu:hover{
+	display: block;
+}
+
+
+
+
+
+/* index2 */
+
+
+#contenido{
+	width: 100%;
+	height: 90%;
+	position: relative;
+	top: 10%;
+}
+
+#formlogin{
+	width: 50%;
+	height: 60%;
+	border: 2px solid black;
+	position: relative;
+	top: 10%;
+	left: 25%;
+	border-radius: 30px;
+	background-color: rgba(0, 195, 255, 0.274);
+	box-shadow: 0px 2px 5px rgb(30, 97, 114);
+}
+
+.boton{
+	width: 100px;
+	background-color: skyblue;
+	height: 50px;
+	left: 50%;
+	bottom: 280px;
+	position: relative;
+	padding: 15px;
+	font-size: 15px;
+	border-radius: 10px;
+
+}
+
+.boton2{
+	width: 100px;
+	background-color: skyblue;
+	height: 50px;
+	left: 35%;
+	position: relative;
+	bottom: 280px;
+	padding: 15px;
+	font-size: 15px;
+	border-radius: 10px;
+
+}
+
+#buscador{
+	margin-top: -85px;
+	position: relative;
+	bottom: 300px;
+	left: 40%;
+	
+}
+
+
+form input {
+	
+	background: transparent;
+	font-weight: bold;
+	background-image: url(https://image.flaticon.com/icons/png/512/116/116836.png);
+	background-size: 16px;
+	background-position: 5px;
+	background-repeat: no-repeat;
+	position: relative;
+	width: 290px;
+	display: flex;
+	padding: 9px 22px 9px 26px;
+	border: 2px solid rgb(49, 49, 43);
+	
+
+}
+
+img{
+	bottom: 540px;
+	position: relative;
+	left: 44%;
+	width: 170px;
+}
+
+}
